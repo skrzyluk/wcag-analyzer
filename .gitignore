@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+
+# Node.js
+node_modules/
+dist/
+.nuxt/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project
+uploads/
+reports/
+
+# Prywatna dokumentacja
+_docs/
+
+# Sample files
+*.xlsx
+
+# Backend cache & venv
+backend/.pytest_cache/
+backend/venv/

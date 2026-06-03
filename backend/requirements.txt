@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+beautifulsoup4
+lxml
+jinja2
+python-dotenv
+pytest
+httpx
+reportlab
+openpyxl
+python-docx
