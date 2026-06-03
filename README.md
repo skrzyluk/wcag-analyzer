@@ -353,7 +353,7 @@ Projekt licencjonowany na [MIT License](./LICENSE)
 
 Pytania? Problemy?
 
-- 📧 Email: skrzyluk@gmail.com
+- 📧 Email: ls_praca@protonmail.com
 - 🐛 Issue Tracker: GitHub Issues
 - 💬 Dokumentacja: [docs/](./docs/)
 
