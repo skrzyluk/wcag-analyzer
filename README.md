@@ -197,23 +197,27 @@ python run_backend.py --prod
 ### Krok 3: Przeglądaj Raport
 
 **Summary Tab** — Ogólna statystyka
+
 - % Compliance
 - Liczba błędów (krytyczne, ważne, drobne)
 - Status WCAG (A, AA, AAA)
 
 **Details Tab** — Każdy błąd z kontekstem
+
 - WCAG Criterion (np. 1.4.3)
 - Opis problemu
 - Rekomendacja naprawy
 - HTML snippet z błędem
 
 **Statistics Tab** — Analiza głęboká
+
 - Błędy wg kryteriów
 - Błędy wg typów (kontrast, alt text, etc.)
 
 ### Krok 4: Export & Udostępnianie
 
 Kliknij "Export" i wybierz format:
+
 - **HTML** — Full report z stylami
 - **PDF** — Drukowane raporty
 - **JSON** — Dane dla integracji
@@ -314,11 +318,13 @@ wcag-analyzer/
 ### Narzędzia
 
 🧪 **Testing Accessibility**
+
 - [WAVE Browser Extension](https://wave.webaim.org/)
 - [Axe DevTools](https://www.deque.com/axe/devtools/)
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 🎨 **Color Contrast**
+
 - [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - [Contrast Ratio Tool](https://contrast-ratio.com/)
 
@@ -356,18 +362,21 @@ Pytania? Problemy?
 ## 🎯 Roadmap
 
 ### v1.0 (Current)
+
 - ✅ Podstawowa analiza WCAG 2.1 AA
 - ✅ Export do HTML/PDF/JSON
 - ✅ Historia analiz
 - ✅ Interfejs webowy
 
 ### v1.1 (Q2 2026)
+
 - 🔲 Porównanie wersji
 - 🔲 Batch analysis
 - 🔲 Integracja z CI/CD
 - 🔲 Dashboard z metrykamietrics
 
 ### v2.0 (Q3 2026)
+
 - 🔲 Automatyczne crawling
 - 🔲 Web scraper dla HTML stron
 - 🔲 Team collaboration
@@ -377,20 +386,20 @@ Pytania? Problemy?
 
 ## 📊 Statystyki Projektu
 
-| Metryka | Wartość |
-|---------|---------|
-| Kryteria WCAG 2.1 AA | ~50 |
-| Komponenty Frontend | 15+ |
-| API Endpoints | 8+ |
-| Linie kodu (Backend) | ~3000 |
-| Linie kodu (Frontend) | ~2000 |
-| Test Coverage | 80%+ |
+| Metryka               | Wartość |
+| --------------------- | ------- |
+| Kryteria WCAG 2.1 AA  | ~50     |
+| Komponenty Frontend   | 15+     |
+| API Endpoints         | 8+      |
+| Linie kodu (Backend)  | ~3000   |
+| Linie kodu (Frontend) | ~2000   |
+| Test Coverage         | 80%+    |
 
 ---
 
 ## ✨ Credits
 
-Stworzony z ❤️ przez zespół dostępności cyfrowej.
+Stworzony z ❤️ przez zespół dostępności cyfrowej (skrzyluk).
 
 **Wersja:** 1.0.0  
 **Status:** Stabilna  
