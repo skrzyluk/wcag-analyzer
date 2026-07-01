@@ -29,7 +29,7 @@ set FRONTEND_DIR=%ROOT%frontend
 
 REM Zmienne środowiskowe (opcjonalne — można zmienić)
 if not defined WCAG_FILES_DIR (
-    set WCAG_FILES_DIR=C:\Users\Dell\Desktop\audyt06
+    set WCAG_FILES_DIR=C:\wcag
 )
 if not defined WCAG_OUTPUT_DIR (
     set WCAG_OUTPUT_DIR=%WCAG_FILES_DIR%\raporty

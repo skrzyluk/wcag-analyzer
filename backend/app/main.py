@@ -44,7 +44,7 @@ _store: dict = {}
 MAX_FILE_SIZE = 50 * 1024 * 1024
 MAX_BATCH_FILES = 40
 
-LOCAL_FILES_DIR = Path(os.getenv("WCAG_FILES_DIR", r"C:\Users\Dell\Desktop\audyt06"))
+LOCAL_FILES_DIR = Path(os.getenv("WCAG_FILES_DIR", r"C:\wcag"))
 OUTPUT_DIR      = Path(os.getenv("WCAG_OUTPUT_DIR", str(LOCAL_FILES_DIR / "raporty")))
 _preloaded_analyses: list[str] = []
 _autoloaded_filenames: set[str] = set()

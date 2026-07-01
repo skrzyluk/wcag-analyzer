@@ -73,7 +73,7 @@ WCAG 2.1 AA Analyzer to narzędzie do automatycznej analizy dostępności cyfrow
 ### 1. Klonowanie Repozytorium
 
 ```bash
-git clone https://github.com/yourusername/wcag-analyzer.git
+git clone https://github.com/skrzyluk/wcag-analyzer.git
 cd wcag-analyzer
 ```
 
@@ -139,6 +139,31 @@ VITE_APP_NAME=WCAG Analyzer
 ---
 
 ## 🚀 Uruchomienie
+
+### 📁 Katalog z plikami MHTML — `C:\wcag`
+
+Przed uruchomieniem aplikacji utwórz katalog **`C:\wcag`** i wgraj do niego pliki `.mhtml` / `.mht`, które chcesz przeanalizować.
+
+```
+C:\wcag\
+├── strona-glowna.mhtml
+├── kontakt.mhtml
+├── formularz.mht
+└── raporty\              # (tworzone automatycznie) wygenerowane raporty XLSX/DOCX/MD
+```
+
+- Po starcie backend **automatycznie skanuje `C:\wcag`** i analizuje wszystkie znalezione pliki MHTML (autoload).
+- Gotowe raporty (XLSX, DOCX oraz zbiorczy MD) zapisywane są w podkatalogu **`C:\wcag\raporty`**.
+- Pliki możesz też wgrać ręcznie przez interfejs webowy (Upload) — katalog `C:\wcag` nie jest wtedy wymagany.
+
+**Zmiana katalogu (opcjonalnie):** domyślne ścieżki można nadpisać zmiennymi środowiskowymi przed uruchomieniem:
+
+```powershell
+$env:WCAG_FILES_DIR  = "C:\wcag"            # katalog źródłowy z plikami MHTML
+$env:WCAG_OUTPUT_DIR = "C:\wcag\raporty"    # katalog na wygenerowane raporty
+```
+
+> Skrypty `start.ps1` / `start.bat` ustawiają domyślnie `WCAG_FILES_DIR=C:\wcag`.
 
 ### Development Mode
 

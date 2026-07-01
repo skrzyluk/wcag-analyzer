@@ -28,7 +28,7 @@ $FRONTEND_DIR = Join-Path $ROOT "frontend"
 
 # Zmienne środowiskowe (opcjonalne)
 if (-not $env:WCAG_FILES_DIR) {
-    $env:WCAG_FILES_DIR = "C:\Users\Dell\Desktop\audyt06"
+    $env:WCAG_FILES_DIR = "C:\wcag"
 }
 if (-not $env:WCAG_OUTPUT_DIR) {
     $env:WCAG_OUTPUT_DIR = Join-Path $env:WCAG_FILES_DIR "raporty"
